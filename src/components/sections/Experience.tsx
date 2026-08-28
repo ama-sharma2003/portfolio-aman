@@ -34,19 +34,20 @@ export function Experience() {
               Work History
             </h3>
 
-            {/* Timeline Vertical Progress Line */}
-            <div className="absolute left-[21px] top-12 bottom-6 w-[2px] bg-white/[0.04]">
-              <motion.div
-                className="absolute top-0 left-0 right-0 origin-top bg-gradient-to-b from-violet to-violet/20"
-                style={{ scaleY, height: '100%' }}
-              />
-            </div>
+            {/* Timeline Experience Items */}
+            <div className="relative space-y-6 md:space-y-8">
+              {/* Timeline Vertical Progress Line */}
+              <div className="absolute left-[11px] top-6 bottom-6 w-[2px] bg-white/[0.04]">
+                <motion.div
+                  className="absolute top-0 left-0 right-0 origin-top bg-gradient-to-b from-violet to-violet/20"
+                  style={{ scaleY, height: '100%' }}
+                />
+              </div>
 
-            <div className="space-y-6 md:space-y-8 pl-12 relative">
               {experiences.map((exp, index) => (
-                <div key={exp.id} className="relative">
+                <div key={exp.id} className="relative pl-10 md:pl-12">
                   {/* Circle Indicator */}
-                  <div className="absolute -left-[43px] top-1.5 w-6 h-6 rounded-full border-2 border-violet bg-[#0A0A0F] flex items-center justify-center z-10">
+                  <div className="absolute left-0 top-6 -translate-y-1/2 w-6 h-6 rounded-full border-2 border-violet bg-[#0A0A0F] flex items-center justify-center z-10">
                     <div className="w-2 h-2 rounded-full bg-violet animate-pulse" />
                   </div>
 
