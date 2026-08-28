@@ -5,7 +5,7 @@ export const experiences: Experience[] = [
     id: 'ambros-tech',
     company: 'Ambros Tech Solutions',
     role: 'Frontend Developer',
-    duration: 'Aug 2025 — Present',
+    duration: 'Aug 2025 — Jul 2026',
     location: 'Jagadhri, Haryana, India',
     description: [
       'Worked on live production projects including bangalorestudy.com and keralastudy.com, serving thousands of daily users.',

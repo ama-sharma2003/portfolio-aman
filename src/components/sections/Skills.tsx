@@ -36,6 +36,7 @@ const iconMap: Record<string, React.ComponentType<{ className?: string }>> = {
   postgresql: Database,
   javascript: Code2,
   typescript: FileJson,
+  python: Code2,
   html: FileCode,
   css: Paintbrush,
   c: Terminal,

@@ -12,7 +12,7 @@ export const personalInfo: PersonalInfo = {
   bio: [
     "I'm a technically driven Frontend Developer with a passion for building user-centric web experiences that are fast, accessible, and visually compelling.",
     "With hands-on experience shipping production applications using React, Next.js, and modern CSS, I focus on translating business requirements into engaging, high-performance interfaces.",
-    "Currently working at Ambros Tech Solutions, I've contributed to live projects serving thousands of users — optimizing responsive layouts, cross-browser compatibility, and page performance.",
+    "During my tenure at Ambros Tech Solutions (Aug 2025 – Jul 2026), I contributed to live projects serving thousands of users — optimizing responsive layouts, cross-browser compatibility, and page performance.",
   ],
 };
 
